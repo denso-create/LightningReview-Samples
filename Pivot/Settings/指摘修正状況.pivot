@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PivotReport>
+  <Name>指摘修正状況</Name>
+  <Editable>True</Editable>
+  <GID>b8c0b651-dc69-4aa0-b3d3-493d39cd2fbc</GID>
+  <LID></LID>
+  <CreatedBy>10042000294</CreatedBy>
+  <CreatedDateTime>2020/12/25 11:23:40</CreatedDateTime>
+  <LastUpdatedBy>10042000294</LastUpdatedBy>
+  <LastUpdatedDateTime>2020/12/25 11:23:40</LastUpdatedDateTime>
+  <MetaDataString>{}</MetaDataString>
+  <DataSourceItems>
+    <Folder>
+      <Type>Directory</Type>
+      <FullName>C:\Users\10042000294\Desktop\LR\レビューエクスプローラ用レビューファイル\○○社向け開発\Aシステム開発プロジェクト\XX開発レビュー</FullName>
+      <ShortName>C:\Users\...\XX開発レビュー</ShortName>
+      <IndexOf></IndexOf>
+      <GID>b3e1ce02-a181-4eb7-a8d4-e999c84de387</GID>
+      <LID></LID>
+      <CreatedBy>10042000294</CreatedBy>
+      <CreatedDateTime>2020/12/25 11:23:58</CreatedDateTime>
+      <LastUpdatedBy>10042000294</LastUpdatedBy>
+      <LastUpdatedDateTime>2020/12/25 11:23:58</LastUpdatedDateTime>
+      <MetaDataString>{}</MetaDataString>
+    </Folder>
+  </DataSourceItems>
+  <PivotControlSetting>
+    <ShowRowTotals>False</ShowRowTotals>
+    <ShowRowGrandTotals>True</ShowRowGrandTotals>
+    <ShowColumnTotals>False</ShowColumnTotals>
+    <ShowColumnGrandTotals>True</ShowColumnGrandTotals>
+    <ChartDataSwapRowAndColumn>False</ChartDataSwapRowAndColumn>
+    <ChartDataSelectionOnly>False</ChartDataSelectionOnly>
+    <GID>263cf886-a730-4f21-ba77-c3204b1c0cd3</GID>
+    <LID></LID>
+    <CreatedBy>10042000294</CreatedBy>
+    <CreatedDateTime>2020/12/25 11:23:40</CreatedDateTime>
+    <LastUpdatedBy>10042000294</LastUpdatedBy>
+    <LastUpdatedDateTime>2020/12/25 11:23:40</LastUpdatedDateTime>
+    <MetaDataString>{}</MetaDataString>
+    <FieldSettings>
+      <FieldSetting>
+        <IndexOf></IndexOf>
+        <GID>9a4cbd52-f578-4147-a902-e561285bfa20</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>GID</ColumnName>
+        <DisplayName>指摘件数</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>1</IndexOf>
+        <GID>ee9d6272-d60c-409f-a9a0-9233aec274cc</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ProjectCode</ColumnName>
+        <DisplayName>プロジェクトコード</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>2</IndexOf>
+        <GID>5a8529fb-1c2f-43e8-af09-ba9134cf5795</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ProjectName</ColumnName>
+        <DisplayName>プロジェクト名</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>164</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>3</IndexOf>
+        <GID>ec0f6029-55b3-40d1-bd1f-b0ecdb7f7563</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReviewName</ColumnName>
+        <DisplayName>レビュー名</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>1</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>146</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>4</IndexOf>
+        <GID>d44a0e71-f100-4c05-aa4b-a2742f544923</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReviewType</ColumnName>
+        <DisplayName>レビュー種別</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>5</IndexOf>
+        <GID>54273f59-dc6e-46be-be33-59c4088aeedc</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Domain</ColumnName>
+        <DisplayName>ドメイン</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>6</IndexOf>
+        <GID>ece36a0a-9e0a-4639-8cf1-74f1e7dbbdde</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FolderName</ColumnName>
+        <DisplayName>レビューファイルのフォルダ名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>7</IndexOf>
+        <GID>5a2154b9-e788-4b11-9fa4-c97279a7e9ff</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FileName</ColumnName>
+        <DisplayName>レビューファイル名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>8</IndexOf>
+        <GID>8d749bb9-d87e-481b-ac25-79b545ebf079</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Type</ColumnName>
+        <DisplayName>タイプ</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>9</IndexOf>
+        <GID>5c79dbba-a3bf-41b8-8703-f63c65b9a79f</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Category</ColumnName>
+        <DisplayName>分類</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>10</IndexOf>
+        <GID>a27c183a-a858-496d-ba85-b355dddfc331</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Status</ColumnName>
+        <DisplayName>ステータス</DisplayName>
+        <Area>ColumnArea</Area>
+        <AreaIndex>3</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>11</IndexOf>
+        <GID>08153159-acb2-4112-8fbe-1adc25dacb8f</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DetectionActivity</ColumnName>
+        <DisplayName>検出工程</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>12</IndexOf>
+        <GID>6fe259ce-ddd8-46e9-a362-6b498d1c5baf</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>InjectionActivity</ColumnName>
+        <DisplayName>原因工程</DisplayName>
+        <Area>ColumnArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>13</IndexOf>
+        <GID>b7564f14-7633-46c2-a657-76419b2ebc8c</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Priority</ColumnName>
+        <DisplayName>優先度</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>14</IndexOf>
+        <GID>e1c4423a-5008-42d4-98f8-af4a7a067937</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Importance</ColumnName>
+        <DisplayName>重大度</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>15</IndexOf>
+        <GID>13898ac8-23d9-48b5-9880-508aa8a48b85</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>NeedToFix</ColumnName>
+        <DisplayName>対策要否</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>16</IndexOf>
+        <GID>e9085774-12bc-4f3f-a5dc-276237136115</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>IsSendingBack</ColumnName>
+        <DisplayName>差し戻されている</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>17</IndexOf>
+        <GID>c34d6d47-6c23-4761-8080-050b5939dbe3</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>HasBeenSentBack</ColumnName>
+        <DisplayName>差し戻されたことがある</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>18</IndexOf>
+        <GID>3847f05b-0dec-4030-aad8-d3add2d6c081</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DocumentName</ColumnName>
+        <DisplayName>ドキュメント名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>19</IndexOf>
+        <GID>117b3190-c50a-4556-988b-056be27b168d</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel1</ColumnName>
+        <DisplayName>アウトライン1</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>20</IndexOf>
+        <GID>a1891f1d-c522-4793-9542-86e26bff7ba8</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel2</ColumnName>
+        <DisplayName>アウトライン2</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>21</IndexOf>
+        <GID>8ced917f-b79d-41f4-8fae-f5b8bf65147d</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel3</ColumnName>
+        <DisplayName>アウトライン3</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>22</IndexOf>
+        <GID>26289229-bc88-4926-bb34-6629752ce61a</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel4</ColumnName>
+        <DisplayName>アウトライン4</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>23</IndexOf>
+        <GID>97afd5bb-48c3-4e52-97d0-44f967c337b8</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel5</ColumnName>
+        <DisplayName>アウトライン5</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>24</IndexOf>
+        <GID>1c3b6561-3e67-4b13-856a-e8812b2c19d8</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText1</ColumnName>
+        <DisplayName>カスタムフィールド1</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>25</IndexOf>
+        <GID>c5fe5c00-201e-4b50-92dd-eabdfe9f8d29</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText2</ColumnName>
+        <DisplayName>カスタムフィールド2</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>26</IndexOf>
+        <GID>3da1228a-c9da-4c1d-bea9-8713b42c0c43</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText3</ColumnName>
+        <DisplayName>カスタムフィールド3</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>27</IndexOf>
+        <GID>7b30c97a-99e3-4d23-8bc2-cab325fa981e</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText4</ColumnName>
+        <DisplayName>カスタムフィールド4</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>28</IndexOf>
+        <GID>3a1e1232-7b3e-40a4-8729-dc71b8e0f92c</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText5</ColumnName>
+        <DisplayName>カスタムフィールド5</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>29</IndexOf>
+        <GID>b4490749-4727-4ca7-bce3-13c64de70364</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText6</ColumnName>
+        <DisplayName>カスタムフィールド6</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>30</IndexOf>
+        <GID>d887f8ec-486f-4d38-9f65-445f800f5e84</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText7</ColumnName>
+        <DisplayName>カスタムフィールド7</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>31</IndexOf>
+        <GID>95d1ebb5-ecd5-4594-94e9-746f7ef852f5</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText8</ColumnName>
+        <DisplayName>カスタムフィールド8</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>32</IndexOf>
+        <GID>332ae18f-d67b-4bf3-8fae-e92af52c079a</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText9</ColumnName>
+        <DisplayName>カスタムフィールド9</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>33</IndexOf>
+        <GID>d989ec67-ba1a-48ae-9e10-5256b1659f30</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText10</ColumnName>
+        <DisplayName>カスタムフィールド10</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>34</IndexOf>
+        <GID>fb52b19d-73dd-4dfe-82cf-7a220f9d0105</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedBy</ColumnName>
+        <DisplayName>報告者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>35</IndexOf>
+        <GID>f9a0d50c-faad-467d-86f0-77956bedfaae</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedYear</ColumnName>
+        <DisplayName>報告日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>36</IndexOf>
+        <GID>eaeb9ae6-dfb8-43d3-a4ef-d0cc6a8b7fe2</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedMonth</ColumnName>
+        <DisplayName>報告日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>37</IndexOf>
+        <GID>4e0aae75-8244-4f65-8d79-df50637b0500</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedDay</ColumnName>
+        <DisplayName>報告日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>38</IndexOf>
+        <GID>092c1962-2158-45c0-9836-23ad70a508a2</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DueDateYear</ColumnName>
+        <DisplayName>期日(年)</DisplayName>
+        <Area>ColumnArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>39</IndexOf>
+        <GID>dc8c8076-be9e-472e-8dee-9535175a74df</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DueDateMonth</ColumnName>
+        <DisplayName>期日(月)</DisplayName>
+        <Area>ColumnArea</Area>
+        <AreaIndex>1</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>40</IndexOf>
+        <GID>2ead84a9-72e8-4717-95e5-1160e9966487</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DueDateDay</ColumnName>
+        <DisplayName>期日(日)</DisplayName>
+        <Area>ColumnArea</Area>
+        <AreaIndex>2</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>41</IndexOf>
+        <GID>40a73647-368d-47b2-87ed-5f7efd99ebfe</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>AssignedTo</ColumnName>
+        <DisplayName>修正者</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>2</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>42</IndexOf>
+        <GID>a66b0acf-aeb3-47b4-b8fb-ccf7daad00dc</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FixedYear</ColumnName>
+        <DisplayName>修正日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>43</IndexOf>
+        <GID>b4428892-9abe-4408-8f07-1bf735eb81e8</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FixedMonth</ColumnName>
+        <DisplayName>修正日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>44</IndexOf>
+        <GID>313d4e88-25d7-41dd-a0fc-955b3961db2b</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FixedDay</ColumnName>
+        <DisplayName>修正日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>45</IndexOf>
+        <GID>b207e29a-edd8-464f-aa8f-19cd66ab1872</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedBy</ColumnName>
+        <DisplayName>確認者</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>3</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>46</IndexOf>
+        <GID>07674c4f-6ef7-4369-abbc-b318acf62706</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedYear</ColumnName>
+        <DisplayName>確認日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>47</IndexOf>
+        <GID>f2b29bf5-8994-456a-93b9-be259a560616</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedMonth</ColumnName>
+        <DisplayName>確認日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>48</IndexOf>
+        <GID>9962949b-f2af-412c-adb6-b6bdf2094062</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedDay</ColumnName>
+        <DisplayName>確認日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>49</IndexOf>
+        <GID>56d1840d-d903-46f2-b906-1022f08450c8</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedBy</ColumnName>
+        <DisplayName>作成者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>50</IndexOf>
+        <GID>e92f100c-e2ba-4fee-ba24-ed7bca2460a2</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedYear</ColumnName>
+        <DisplayName>作成日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>51</IndexOf>
+        <GID>e8c939c7-1de6-49c6-b64f-9c30fa627496</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedMonth</ColumnName>
+        <DisplayName>作成日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>52</IndexOf>
+        <GID>507018e2-fca4-4cca-8347-4a1b9df252f6</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedDay</ColumnName>
+        <DisplayName>作成日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>53</IndexOf>
+        <GID>5f9819d3-5a48-469c-bb43-fc5bd661a4a5</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedBy</ColumnName>
+        <DisplayName>最終更新者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>54</IndexOf>
+        <GID>a6dc75ee-21dd-4aa1-bd0b-3e6b443c315d</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedYear</ColumnName>
+        <DisplayName>最終更新日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>55</IndexOf>
+        <GID>86982f31-558c-4c69-9baa-1c7682e03a1c</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedMonth</ColumnName>
+        <DisplayName>最終更新日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>56</IndexOf>
+        <GID>90612130-d571-4cc7-8924-bb1d615ec520</GID>
+        <LID></LID>
+        <CreatedBy>10042000294</CreatedBy>
+        <CreatedDateTime>2020/12/25 11:24:48</CreatedDateTime>
+        <LastUpdatedBy>10042000294</LastUpdatedBy>
+        <LastUpdatedDateTime>2020/12/25 11:24:48</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedDay</ColumnName>
+        <DisplayName>最終更新日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+    </FieldSettings>
+  </PivotControlSetting>
+</PivotReport>

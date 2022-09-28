@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PivotReport>
+  <Name>分類×重大度</Name>
+  <Editable>True</Editable>
+  <GID>531d1465-d55d-4b0e-ab93-e1e50190a6cd</GID>
+  <LID></LID>
+  <CreatedBy>岡本</CreatedBy>
+  <CreatedDateTime>2021/04/12 10:21:35</CreatedDateTime>
+  <LastUpdatedBy>岡本</LastUpdatedBy>
+  <LastUpdatedDateTime>2021/04/12 10:21:35</LastUpdatedDateTime>
+  <MetaDataString>{}</MetaDataString>
+  <DataSourceItems>
+    <Folder>
+      <Type>Directory</Type>
+      <FullName>C:\ローカル作業用\LR\レビューエクスプローラ用レビューファイル\○○社向け開発\Aシステム開発プロジェクト\XX開発レビュー</FullName>
+      <ShortName>C:\ローカル作業用\...\XX開発レビュー</ShortName>
+      <IndexOf></IndexOf>
+      <GID>68440277-2a34-45b2-9a88-9b97c739af39</GID>
+      <LID></LID>
+      <CreatedBy>岡本</CreatedBy>
+      <CreatedDateTime>2021/04/12 10:22:24</CreatedDateTime>
+      <LastUpdatedBy>岡本</LastUpdatedBy>
+      <LastUpdatedDateTime>2021/04/12 10:22:24</LastUpdatedDateTime>
+      <MetaDataString>{}</MetaDataString>
+    </Folder>
+  </DataSourceItems>
+  <PivotControlSetting>
+    <ShowRowTotals>False</ShowRowTotals>
+    <ShowRowGrandTotals>True</ShowRowGrandTotals>
+    <ShowColumnTotals>False</ShowColumnTotals>
+    <ShowColumnGrandTotals>True</ShowColumnGrandTotals>
+    <ChartDataSwapRowAndColumn>False</ChartDataSwapRowAndColumn>
+    <ChartDataSelectionOnly>False</ChartDataSelectionOnly>
+    <GID>b3d408ed-eb97-48dd-a2a9-e2d8818f79b1</GID>
+    <LID></LID>
+    <CreatedBy>岡本</CreatedBy>
+    <CreatedDateTime>2021/04/12 10:21:35</CreatedDateTime>
+    <LastUpdatedBy>岡本</LastUpdatedBy>
+    <LastUpdatedDateTime>2021/04/12 10:21:35</LastUpdatedDateTime>
+    <MetaDataString>{}</MetaDataString>
+    <FieldSettings>
+      <FieldSetting>
+        <IndexOf></IndexOf>
+        <GID>72d8aa6b-ad6f-4155-ad3b-f630f7db45bf</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>GID</ColumnName>
+        <DisplayName>指摘件数</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>1</IndexOf>
+        <GID>194db093-eb29-42ed-8ad0-112fe58a6b66</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ProjectCode</ColumnName>
+        <DisplayName>プロジェクトコード</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>2</IndexOf>
+        <GID>5a38add4-a02c-41fb-8b8e-d081e93dedaa</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ProjectName</ColumnName>
+        <DisplayName>プロジェクト名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>3</IndexOf>
+        <GID>6f0c51c1-1023-4915-8cc8-687609c71a4f</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReviewName</ColumnName>
+        <DisplayName>レビュー名</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>262</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>4</IndexOf>
+        <GID>264b5a32-4e77-47f5-9822-89e804b2fa3d</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReviewType</ColumnName>
+        <DisplayName>レビュー種別</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>186</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>5</IndexOf>
+        <GID>3cab1c5e-96ea-4e6b-a09c-ed2e433dec24</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Domain</ColumnName>
+        <DisplayName>ドメイン</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>6</IndexOf>
+        <GID>f45a6772-3640-4ebd-a455-f00697abbff6</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FolderName</ColumnName>
+        <DisplayName>レビューファイルのフォルダ名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>7</IndexOf>
+        <GID>c5007227-ae9f-492c-85ca-d67aa667e228</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FileName</ColumnName>
+        <DisplayName>レビューファイル名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>8</IndexOf>
+        <GID>ab03fdeb-6e0b-44e2-b896-ff35498477f6</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Type</ColumnName>
+        <DisplayName>タイプ</DisplayName>
+        <Area>FilterArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues>
+          <Value>グッドポイント</Value>
+        </FilterValues>
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>9</IndexOf>
+        <GID>40e62857-d8df-40bf-8e38-ab1f08fb0771</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Category</ColumnName>
+        <DisplayName>分類</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>1</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>207</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>10</IndexOf>
+        <GID>7908569b-d84f-4f36-81cf-80cbdf4db8fb</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Status</ColumnName>
+        <DisplayName>ステータス</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>11</IndexOf>
+        <GID>9a3c1776-f031-4451-91a2-4b126e0a1191</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DetectionActivity</ColumnName>
+        <DisplayName>検出工程</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>12</IndexOf>
+        <GID>9b66288e-8481-498a-bdd3-2dca19231aa6</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>InjectionActivity</ColumnName>
+        <DisplayName>原因工程</DisplayName>
+        <Area>RowArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>110</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>13</IndexOf>
+        <GID>d8af26f5-a2e2-471d-b032-d9bad0caf27d</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Priority</ColumnName>
+        <DisplayName>優先度</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>14</IndexOf>
+        <GID>d1ccc6df-0ee5-436b-a7b8-57e9ddc94245</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>Importance</ColumnName>
+        <DisplayName>重大度</DisplayName>
+        <Area>ColumnArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>true</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>15</IndexOf>
+        <GID>ad114f93-aba1-4350-a374-f65d61347765</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>NeedToFix</ColumnName>
+        <DisplayName>対策要否</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>16</IndexOf>
+        <GID>c701340f-26e2-4d2c-9ed3-6f15c05ffdac</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>IsSendingBack</ColumnName>
+        <DisplayName>差し戻されている</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>17</IndexOf>
+        <GID>41f1c9e4-92a2-4052-8a06-d95f8e30c4a3</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>HasBeenSentBack</ColumnName>
+        <DisplayName>差し戻されたことがある</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>18</IndexOf>
+        <GID>e5e995d5-7a7a-4b6a-b5cb-5bf7a4840062</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DocumentName</ColumnName>
+        <DisplayName>ドキュメント名</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>19</IndexOf>
+        <GID>9611f89a-ae59-422b-b936-77cfe195422e</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel1</ColumnName>
+        <DisplayName>アウトライン1</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>20</IndexOf>
+        <GID>a0d71c53-863a-448f-bc2c-02cdd563c8c4</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel2</ColumnName>
+        <DisplayName>アウトライン2</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>21</IndexOf>
+        <GID>f62cf7d3-35ef-49e0-8dbe-170f43cf3c02</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel3</ColumnName>
+        <DisplayName>アウトライン3</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>22</IndexOf>
+        <GID>e94fae28-1e88-4a32-a9bb-cadb20773c9a</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel4</ColumnName>
+        <DisplayName>アウトライン4</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>23</IndexOf>
+        <GID>7341b6a8-ccaa-454b-8b28-62c3ba52bed5</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>OutlineLevel5</ColumnName>
+        <DisplayName>アウトライン5</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>24</IndexOf>
+        <GID>a8dedb7f-d55e-49ab-98d2-33e6f1680f19</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText1</ColumnName>
+        <DisplayName>カスタムフィールド1</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>25</IndexOf>
+        <GID>37d67ded-30c8-4b4e-b346-e3701b35d1fc</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText2</ColumnName>
+        <DisplayName>カスタムフィールド2</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>26</IndexOf>
+        <GID>3595160d-6bfc-45a2-89a0-e244f5ccec1f</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText3</ColumnName>
+        <DisplayName>カスタムフィールド3</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>27</IndexOf>
+        <GID>81b8cfb0-f652-417a-8b88-373bf3d1ffbb</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText4</ColumnName>
+        <DisplayName>カスタムフィールド4</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>28</IndexOf>
+        <GID>20b67a41-2867-4683-b0a3-3844739a271a</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText5</ColumnName>
+        <DisplayName>カスタムフィールド5</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>29</IndexOf>
+        <GID>7e9367d5-d1d7-44b1-9e35-75ba4fcc2ea1</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText6</ColumnName>
+        <DisplayName>カスタムフィールド6</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>30</IndexOf>
+        <GID>5f51adbb-8507-49c3-958d-c7da153165c4</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText7</ColumnName>
+        <DisplayName>カスタムフィールド7</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>31</IndexOf>
+        <GID>43a22869-ff88-47be-a775-16fa759dadc1</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText8</ColumnName>
+        <DisplayName>カスタムフィールド8</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>32</IndexOf>
+        <GID>5d827ee5-5101-4287-8949-f8c4a412073c</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText9</ColumnName>
+        <DisplayName>カスタムフィールド9</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>33</IndexOf>
+        <GID>b8d0f4b7-3891-440f-89cf-db4171c63b77</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CustomText10</ColumnName>
+        <DisplayName>カスタムフィールド10</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>34</IndexOf>
+        <GID>363e9ede-8df9-41f6-b0bd-4e698f984a8c</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedBy</ColumnName>
+        <DisplayName>報告者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>35</IndexOf>
+        <GID>65f80d1d-179b-4697-8c1c-ddabaf5fbce5</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedYear</ColumnName>
+        <DisplayName>報告日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>36</IndexOf>
+        <GID>1c8ebe25-37c0-4a7a-9ed1-5c1aeaf52893</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedMonth</ColumnName>
+        <DisplayName>報告日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>37</IndexOf>
+        <GID>f88dc03f-9af0-47a2-8c6d-b61109d295f0</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ReportedDay</ColumnName>
+        <DisplayName>報告日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>38</IndexOf>
+        <GID>5f29c7f8-708c-4ca5-a5e2-cb07125a154a</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DueDateYear</ColumnName>
+        <DisplayName>期日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>39</IndexOf>
+        <GID>e2465934-0b5f-46ec-ac09-b5cc3f4710e5</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DueDateMonth</ColumnName>
+        <DisplayName>期日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>40</IndexOf>
+        <GID>8cab29ad-1416-4c97-bd20-5cc349c10332</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>DueDateDay</ColumnName>
+        <DisplayName>期日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>41</IndexOf>
+        <GID>db42b0b4-d692-4f0c-8d4b-e454cacfc543</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>AssignedTo</ColumnName>
+        <DisplayName>修正者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>42</IndexOf>
+        <GID>10e4692e-6761-4fc3-bd30-27a7f1e2815c</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FixedYear</ColumnName>
+        <DisplayName>修正日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>43</IndexOf>
+        <GID>de2d1b6f-9fe7-4342-9763-67abfe18cf01</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FixedMonth</ColumnName>
+        <DisplayName>修正日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>44</IndexOf>
+        <GID>f3456ac2-2208-4f53-a7fb-08034372415c</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>FixedDay</ColumnName>
+        <DisplayName>修正日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>45</IndexOf>
+        <GID>5adbc993-570d-4aef-ae62-0a4b56d2299b</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedBy</ColumnName>
+        <DisplayName>確認者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>46</IndexOf>
+        <GID>b5338dea-85bb-48d6-819c-9dd267b35161</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedYear</ColumnName>
+        <DisplayName>確認日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>47</IndexOf>
+        <GID>57e94531-0a0e-4606-b9ef-6b8206c35c77</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedMonth</ColumnName>
+        <DisplayName>確認日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>48</IndexOf>
+        <GID>bc917c8b-7f4b-48e9-965b-106ac649fa58</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>ConfirmedDay</ColumnName>
+        <DisplayName>確認日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>49</IndexOf>
+        <GID>cdb0b8d9-0108-4a9d-bf1d-6ab6bffa744c</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedBy</ColumnName>
+        <DisplayName>作成者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>50</IndexOf>
+        <GID>e720004c-aae6-49c3-95b9-c0efe80abd47</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedYear</ColumnName>
+        <DisplayName>作成日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>51</IndexOf>
+        <GID>087ddcdc-cbee-4237-88bf-bd4a097cdb91</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedMonth</ColumnName>
+        <DisplayName>作成日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>52</IndexOf>
+        <GID>c09484f4-13d5-4f85-9b9e-50e8bb856f0a</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>CreatedDay</ColumnName>
+        <DisplayName>作成日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>53</IndexOf>
+        <GID>10b534ad-ba6d-47e6-9b92-d9995822d6c2</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedBy</ColumnName>
+        <DisplayName>最終更新者</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>54</IndexOf>
+        <GID>f3993dc3-abc1-4c21-9c7f-e906e0374199</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedYear</ColumnName>
+        <DisplayName>最終更新日(年)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>55</IndexOf>
+        <GID>b7c13417-310a-41fc-b324-04788d1dbddf</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedMonth</ColumnName>
+        <DisplayName>最終更新日(月)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+      <FieldSetting>
+        <IndexOf>56</IndexOf>
+        <GID>0b8ef179-f006-4df3-9dfb-ca4aab2bb477</GID>
+        <LID></LID>
+        <CreatedBy>岡本</CreatedBy>
+        <CreatedDateTime>2021/04/12 10:24:31</CreatedDateTime>
+        <LastUpdatedBy>岡本</LastUpdatedBy>
+        <LastUpdatedDateTime>2021/04/12 10:24:31</LastUpdatedDateTime>
+        <MetaDataString>{}</MetaDataString>
+        <ColumnName>LastUpdatedDay</ColumnName>
+        <DisplayName>最終更新日(日)</DisplayName>
+        <Area>DataArea</Area>
+        <AreaIndex>0</AreaIndex>
+        <SortOrder>Ascending</SortOrder>
+        <Width>80</Width>
+        <Visible>false</Visible>
+        <FilterType>Excluded</FilterType>
+        <FilterValues />
+      </FieldSetting>
+    </FieldSettings>
+  </PivotControlSetting>
+</PivotReport>
